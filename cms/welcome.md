@@ -74,7 +74,7 @@ Your blog will look great on all devices, thanks to the CMS's responsive design 
 
 
 ## Live Examples
-!\[\](./images/byli.png)
+!\[\](./images/byli.jpg)
 - \[Byli blog\](https://byli.dev)
 
 Now, you have a fully functional Personal Blog CMS running on Angular, ready to share your thoughts with the world!
