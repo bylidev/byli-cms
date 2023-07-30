@@ -85,4 +85,4 @@ Please note that this is just a basic overview, and you can extend the CMS with 
 
 ----------
 
-_This project is open-source and licensed under the [MIT License](). Feel free to share and modify this repository, and contributions are always welcome! We value your input and feedback to make Byli-CMS a thriving platform for tech enthusiasts._
+_This project is open-source and licensed under the [MIT License](https://github.com/igloar96/byli-cms/blob/master/LICENSE). Feel free to share and modify this repository, and contributions are always welcome! We value your input and feedback to make Byli-CMS a thriving platform for tech enthusiasts._
