@@ -6,7 +6,6 @@ thumb: "byli.jpg"
 date: "2023-07-30"
 tags:
     - cms
-    - open-source
     - byli-blog
 ---
 
