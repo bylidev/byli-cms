@@ -1,0 +1,22 @@
+<mat-toolbar color="primary">
+  <mat-toolbar-row>
+    <div style="display: flex;align-items: center;">
+      <button mat-icon-button (click)="drawer.toggle()">
+        <mat-icon>menu</mat-icon>
+      </button>
+      <img src="/assets/logo.png">
+    </div>
+  </mat-toolbar-row>
+</mat-toolbar>
+<mat-drawer-container autosize>
+  <mat-drawer mode="side" #drawer>
+    <div class="menu-item">
+      <ng-container *ngFor="let item of this.menu | async | keyvalue">
+        <span mat-menu-item (click)="drawer.toggle();this.router.navigateByUrl('tag/'+item.key)">
+          <span>{{item.key}}</span>
+        </span>
+      </ng-container>
+    </div>
+  </mat-drawer>
+  <router-outlet></router-outlet>
+</mat-drawer-container>

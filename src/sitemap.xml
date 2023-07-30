@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://byli.dev/byli-blog</loc>
+    <lastmod>2023-07-30</lastmod>
+    <keywords>
+      <keyword>cms</keyword>
+      <keyword>open-source</keyword>
+      <keyword>byli-blog</keyword>
+    </keywords>
+    <title>Live Example: Byli-Blog, Exploring the Tech Frontier</title>
+    <author>Ignacio Lopez</author>
+    <thumb>/assets/blog/images/thumb_byli.jpg</thumb>
+  </url>
+  <url>
+    <loc>https://byli.dev/byli-cms</loc>
+    <lastmod>2023-07-30</lastmod>
+    <keywords>
+      <keyword>cms</keyword>
+      <keyword>open-source</keyword>
+      <keyword>angular</keyword>
+    </keywords>
+    <title> Introducing Byli-CMS - A Lightweight Open-Source Serverless Solution</title>
+    <author>Ignacio Lopez</author>
+    <thumb>/assets/blog/images/thumb_open-source.jpeg</thumb>
+  </url>
+</urlset>
