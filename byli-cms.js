@@ -12,7 +12,7 @@ const imagesDir = './src/assets/blog/images';
 const entryPath = './src/assets/blog';
 const idxTagFilePath = './src/assets/blog/{uuid}.json';
 const menuByTags = './src/assets/blog/menu.json';
-
+const byliDevUrl = 'https://cms.byli.dev'; // URL of the Byli-CMS website
 /**
  * Clean script.
  */
@@ -194,7 +194,7 @@ async function createSitemapWithKeywords(urlObjectMap) {
 
   for (const [route, obj] of Object.entries(urlObjectMap)) {
     const { title, author, thumb, date, tags } = obj;
-    const loc = `https://byli.dev/${route}`; // Reemplaza 'example.com' con tu dominio real o URL base
+    const loc = `${byliDevUrl}/${route}`; // Reemplaza 'example.com' con tu dominio real o URL base
     const lastmod = date; // Asignamos la fecha de última modificación directamente
 
     const urlElement = xml.ele('url');
