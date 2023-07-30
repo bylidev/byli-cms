@@ -1,27 +1,78 @@
-# Blog
+# BYLI-CMS
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.4.
+![](./cms/images/open-source.jpeg)
 
-## Development server
+Welcome to BYLI-CMS, a lightweight, serverless, scalable, opensource and easily maintainable CMS built for personal blogs. This CMS is designed to be easily deployable on various platforms, including GitLab Pages, GitHub Pages, or Cloudflare Pages. Powered by Angular, it offers high customizability and seamless integration with modern web technologies. Let's dive into its features:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+[## Features:
 
-## Code scaffolding
+### 1. Markdown Support with Metadata:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Write your blog posts using the power of Markdown, and enrich them with metadata such as title, route, and blog images. This allows for easy categorization and enhanced SEO capabilities.
 
-## Build
+### 2. Serverless Architecture with Intelligent Indexing:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+The CMS operates entirely on the client-side, utilizing serverless technologies. The markdown blog posts are intelligently indexed based on specific criteria, eliminating the need for manual pagination. Your readers can easily find and access any blog post without cumbersome pagination.
 
-## Running unit tests
+### 3. SEO-friendly and Indexed with Robot Files:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Each blog post is automatically optimized for search engines, and the CMS generates sitemaps and robot.txt files. The robot.txt file includes all the routes of your blog, ensuring proper indexing and crawling by search engines.
 
-## Running end-to-end tests
+### 4. Image Size Processing:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Upload images directly within the CMS, and it will automatically optimize and resize them to ensure fast loading times and better performance.
 
-## Further help
+### 5. Scalable and Extendable:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Designed to handle a growing blog with ease, the CMS offers a modular structure, allowing you to extend functionality with custom Angular components and modules.
+
+### 6. Route Management:
+
+Easily manage and customize the routes of your blog. The CMS uses Angular's routing capabilities, making it simple to organize content and create custom URL structures.
+
+### 7. Version Control and Deployments:
+
+Since the CMS is built on Angular, you can effortlessly manage your project with version control systems like Git. Deployment to platforms such as GitLab Pages, GitHub Pages, or Cloudflare Pages is straightforward.
+
+### 8. Customizable Themes:
+
+Change the look and feel of your blog by customizing themes. The CMS comes with a set of pre-built themes, and you can create your own easily by modifying CSS.
+
+### 9. User-Friendly Interface:
+
+The intuitive and user-friendly interface makes it easy for authors to write and manage blog posts, even for those without technical knowledge.
+
+### 10. Responsive Design:
+
+Your blog will look great on all devices, thanks to the CMS's responsive design that adapts to various screen sizes.
+
+## Requirements:
+
+-   Node.js and npm for development and build processes.
+-   Angular CLI for running the development server and building the project.
+-   A static hosting platform such as GitLab Pages, GitHub Pages, or Cloudflare Pages for deployment.
+
+## Getting Started:
+
+1.  Clone the repository from GitHub.
+2.  Install Node.js and npm if not already installed.
+3.  Install Angular CLI globally using `npm install -g @angular/cli`.
+4.  Run `npm install` in the project directory to install dependencies.
+5.  Customize the theme or create your own in the `themes` folder.
+6.  Create your blog posts in Markdown format in the `content` folder, including metadata for enhanced SEO and categorization.
+7.  Run `ng serve` for local development and testing.
+8.  Deploy the built project to your preferred static hosting platform.
+
+
+## Live Examples
+!\[\](./images/byli.png)
+- \[Byli blog\](https://byli.dev)
+
+Now, you have a fully functional Personal Blog CMS running on Angular, ready to share your thoughts with the world!
+
+Please note that this is just a basic overview, and you can extend the CMS with additional features and improvements to suit your specific needs. Happy blogging! 🚀📝
+
+----------
+
+_This project is open-source and licensed under the \[MIT License\](https://github.com/igloar96/byli-cms/blob/master/LICENSE). Feel free to share and modify this repository, and contributions are always welcome! We value your input and feedback to make Byli-CMS a thriving platform for tech enthusiasts._
+](welcome.md)
