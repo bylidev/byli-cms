@@ -9,7 +9,7 @@ tags:
 ---
 # BYLI-CMS
 
-![](./images/open-source.jpeg)
+![](./cms/images/open-source.jpeg)
 
 Welcome to BYLI-CMS, a lightweight, serverless, scalable, opensource and easily maintainable CMS built for personal blogs. This CMS is designed to be easily deployable on various platforms, including GitLab Pages, GitHub Pages, or Cloudflare Pages. Powered by Angular, it offers high customizability and seamless integration with modern web technologies. Let's dive into its features:
 
@@ -63,18 +63,18 @@ Your blog will look great on all devices, thanks to the CMS's responsive design 
 
 ## Getting Started:
 
-1.  Clone the repository from GitHub.
+1.  Clone the repository from [GitHub](https://github.com/igloar96/byli-cms/releases/tag/1.0.0).
 2.  Install Node.js and npm if not already installed.
-3.  Install Angular CLI globally using `npm install -g @angular/cli`.
-4.  Run `npm install` in the project directory to install dependencies.
-5.  Customize the theme or create your own in the `themes` folder.
-6.  Create your blog posts in Markdown format in the `content` folder, including metadata for enhanced SEO and categorization.
-7.  Run `ng serve` for local development and testing.
-8.  Deploy the built project to your preferred static hosting platform.
+3.  Install Angular CLI globally using  `npm install -g @angular/cli`.
+4.  Run  `npm install`  in the project directory to install dependencies.
+5.  Create your blog posts in Markdown format in the  `cms`, `cms/images`  folders.
+6. Run `npm run build` 
+7.  Run  `ng serve`  for local development and testing.
+8.  Deploy the built project on `dist/blog`  to your preferred static hosting platform.
 
 
 ## Live Examples
-![](./images/byli.jpg)
+![](./cms/images/byli.jpg)
 - [Byli blog](https://byli.dev)
 
 Now, you have a fully functional Personal Blog CMS running on Angular, ready to share your thoughts with the world!
@@ -84,3 +84,4 @@ Please note that this is just a basic overview, and you can extend the CMS with 
 ----------
 
 _This project is open-source and licensed under the [MIT License](https://github.com/igloar96/byli-cms/blob/master/LICENSE). Feel free to share and modify this repository, and contributions are always welcome! We value your input and feedback to make Byli-CMS a thriving platform for tech enthusiasts._
+](welcome.md)
