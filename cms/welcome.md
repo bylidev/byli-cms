@@ -13,7 +13,7 @@ tags:
 
 Welcome to BYLI-CMS, a lightweight, serverless, scalable, opensource and easily maintainable CMS built for personal blogs. This CMS is designed to be easily deployable on various platforms, including GitLab Pages, GitHub Pages, or Cloudflare Pages. Powered by Angular, it offers high customizability and seamless integration with modern web technologies. Let's dive into its features:
 
-[## Features:
+## Features:
 
 ### 1. Markdown Support with Metadata:
 
@@ -74,8 +74,8 @@ Your blog will look great on all devices, thanks to the CMS's responsive design 
 
 
 ## Live Examples
-!\[\](./images/byli.jpg)
-- \[Byli blog\](https://byli.dev)
+![](./images/byli.jpg)
+- [Byli blog](https://byli.dev)
 
 Now, you have a fully functional Personal Blog CMS running on Angular, ready to share your thoughts with the world!
 
@@ -83,5 +83,4 @@ Please note that this is just a basic overview, and you can extend the CMS with 
 
 ----------
 
-_This project is open-source and licensed under the \[MIT License\](https://github.com/igloar96/byli-cms/blob/master/LICENSE). Feel free to share and modify this repository, and contributions are always welcome! We value your input and feedback to make Byli-CMS a thriving platform for tech enthusiasts._
-](welcome.md)
+_This project is open-source and licensed under the [MIT License](https://github.com/igloar96/byli-cms/blob/master/LICENSE). Feel free to share and modify this repository, and contributions are always welcome! We value your input and feedback to make Byli-CMS a thriving platform for tech enthusiasts._
