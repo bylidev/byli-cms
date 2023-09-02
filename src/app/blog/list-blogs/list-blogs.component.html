@@ -3,7 +3,7 @@
       <mat-card *ngIf="entry[1].tags.length > 0">
         <mat-card-content (click)="router.navigateByUrl(entry[0])">
           <img [src]="entry[1].thumb" alt="image" class="image">
-          <h2>{{ entry[1].title }}</h2>
+          <h2 class="glitch">{{ entry[1].title }}</h2>
           <span>{{ entry[1].time }} min reading</span>
         </mat-card-content>
       </mat-card>

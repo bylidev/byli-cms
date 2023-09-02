@@ -33,7 +33,11 @@ $my-custom-level: mat.define-typography-level(
   $letter-spacing: normal,
 );
 
-@include mat.all-component-themes($my-light-theme);
+$duration: 5s;
+$text-color: rgba(255, 255, 255, 0.3);
+$bgr-color: #333;
+
+@include mat.all-component-themes($my-dark-theme);
 
 @include mat.strong-focus-indicators-theme(rgb(75, 134, 168));
 
@@ -52,3 +56,19 @@ img{
 p{
   word-wrap: break-word;
 }
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 15px;
+}
+
+::-webkit-scrollbar-track-piece  {
+  background-color:#bdc3c7;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+  height: 30px;
+  background-color: grey;
+}
+  
+  
