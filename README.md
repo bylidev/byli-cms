@@ -1,5 +1,6 @@
-# BYLI-CMS
+# BYLI-CMS [Project live demo](https://cms.byli.dev)
 
+## Create and upload markdowns and images, and you'll have your blog – nothing else required !
 ![](./cms/images/open-source.jpeg)
 
 Welcome to BYLI-CMS, a lightweight, serverless, scalable, opensource and easily maintainable CMS built for personal blogs. This CMS is designed to be easily deployable on various platforms, including GitLab Pages, GitHub Pages, or Cloudflare Pages. Powered by Angular, it offers high customizability and seamless integration with modern web technologies. Let's dive into its features:
